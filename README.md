@@ -7,4 +7,4 @@ So it will be 4 individual servos to control each individual cell. They go throu
 
 ![](./yechan_four_servo_control/pictures/degreeofrotation.png)
 
-Note that RIGHT NOW, the green bar to reset the cells is a solid bar, so all servos/cells should reset at the same time (and all servos should be rotating counter clockwise at the same time, regardless of state). But, in the future, we might want to individually reset cells, so make sure that cell reset is still separate commands for each servo.
+RIGHT NOW, the green bar to reset the cells is a solid bar, so all servos/cells should reset at the same time (and all servos should be rotating counter clockwise at the same time, regardless of state). But, in the future, we might want to individually reset cells, so make sure that cell reset is still separate commands for each servo.
