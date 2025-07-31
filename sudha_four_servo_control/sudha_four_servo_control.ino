@@ -39,7 +39,7 @@ const int angle180 = 180;           // 180 deg servo
 void setup() {
   Serial.begin(9600);           // Initialize Serial communication
   myServo.attach(servoPin);
-  myServo.write(neutralPos);    // Start at neutral position
+  myServo.write(zero);    // Start at neutral position
   Serial.println("Enter state: 0, n, pd, r or 180");
 }
 
