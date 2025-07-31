@@ -1,3 +1,11 @@
+// Controlling four servos with arduino. Adapted from Yechan Kwon
+// Baudrate: 9600
+// Serial Monitor commands: 1p(pull), 1u(push), 1n(neutral) 
+// Example: 1p - pull command for Servo 1
+//        : 2u - pushcommand for Servo 2
+
+
+
 #include <Servo.h>
 // Declare 4 servo motor objects
 Servo servo1;
