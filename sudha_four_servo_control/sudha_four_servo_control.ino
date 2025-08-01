@@ -31,16 +31,16 @@
 Servo myServo;
 const int servoPin = 8;
 
-const int neutralPos = 90;     // Preset positions (angles)
-const int pullDownPos = 0;
-const int resetPos = 115;
+const int neutralPos = 110;     // Preset positions (angles)
+const int pullDownPos = 20;     
+const int resetPos = 155;      //+65deg angular
 const int zero = 0;           // 0 deg servo
 const int angle180 = 180;           // 180 deg servo
 
 void setup() {
   Serial.begin(9600);           // Initialize Serial communication
   myServo.attach(servoPin);
-  myServo.write(zero);    // Start at neutral position
+  myServo.write(zero);    // Start at zero position
   Serial.println("Enter state: 0, n, pd, r or 180");
 }
 
