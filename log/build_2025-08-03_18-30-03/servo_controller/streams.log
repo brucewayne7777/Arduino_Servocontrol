@@ -1,0 +1,17 @@
+[0.489s] Invoking command in '/home/sudhaavan/tactile_sensor_ros2_ws/src/servo_controller/build/servo_controller': PYTHONPATH=/home/sudhaavan/tactile_sensor_ros2_ws/src/servo_controller/build/servo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhaavan/tactile_sensor_ros2_ws/src/servo_controller/install/servo_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sudhaavan/tactile_sensor_ros2_ws/src/servo_controller/build/servo_controller/build --no-deps symlink_data
+[0.683s] running develop
+[0.788s] running egg_info
+[0.798s] writing servo_controller.egg-info/PKG-INFO
+[0.798s] writing dependency_links to servo_controller.egg-info/dependency_links.txt
+[0.798s] writing entry points to servo_controller.egg-info/entry_points.txt
+[0.798s] writing requirements to servo_controller.egg-info/requires.txt
+[0.799s] writing top-level names to servo_controller.egg-info/top_level.txt
+[0.820s] reading manifest file 'servo_controller.egg-info/SOURCES.txt'
+[0.820s] writing manifest file 'servo_controller.egg-info/SOURCES.txt'
+[0.832s] running build_ext
+[0.832s] Creating /home/sudhaavan/tactile_sensor_ros2_ws/src/servo_controller/install/servo_controller/lib/python3.12/site-packages/servo-controller.egg-link (link to .)
+[0.832s] Installing servo_controller_node script to /home/sudhaavan/tactile_sensor_ros2_ws/src/servo_controller/install/servo_controller/lib/servo_controller
+[0.832s] 
+[0.832s] Installed /home/sudhaavan/tactile_sensor_ros2_ws/src/servo_controller/build/servo_controller
+[0.832s] running symlink_data
+[0.855s] Invoked command in '/home/sudhaavan/tactile_sensor_ros2_ws/src/servo_controller/build/servo_controller' returned '0': PYTHONPATH=/home/sudhaavan/tactile_sensor_ros2_ws/src/servo_controller/build/servo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhaavan/tactile_sensor_ros2_ws/src/servo_controller/install/servo_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sudhaavan/tactile_sensor_ros2_ws/src/servo_controller/build/servo_controller/build --no-deps symlink_data
