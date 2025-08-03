@@ -1,9 +1,24 @@
-This is the current design of the finger that we are going for:
+Current design of the finger:
 
 ![](./yechan_four_servo_control/pictures/servo.png)
 
-So it will be 4 individual servos to control each individual cell. They go through a specific range of motion. We can say that the neutral position is +20 deg, and to pull the cell down, it rotates to -70 deg (so 90deg rotation) to pull on the tendon. To push the cell back up, it will rotate counter clockwise to +45 deg to push the green bar up. These angles are approximate and we'll have to tune them once we actually manufacture the full finger. So it will actually be 3 positions: pull, push, and neutral. You can look into either controlling via topics or actions. 
+Each cell is controlled by an individual servo motor, with three key positions:
+
+Neutral: ~+20° (resting position)
+
+Pull: ~–70° (rotates clockwise to pull the tendon downward)
+
+Push: ~+45° (rotates counterclockwise to push the green bar upward)
+
+This gives each servo a ~90° range of motion between the pull and push extremes. These angle values are approximate and will require fine-tuning after the full finger is manufactured.
+
+Control can be implemented using either ROS topics or actions, depending on your preferred interface.
 
 ![](./yechan_four_servo_control/pictures/degreeofrotation.png)
 
-RIGHT NOW, the green bar to reset the cells is a solid bar, so all servos/cells should reset at the same time (and all servos should be rotating counter clockwise at the same time, regardless of state). But, in the future, we might want to individually reset cells, so make sure that cell reset is still separate commands for each servo.
+Note on Cell Reset Mechanism
+
+Currently, the green reset bar is a single solid piece. This means all servos (and therefore all cells) must reset simultaneously by rotating counterclockwise, regardless of their previous state.
+
+However, to support future designs where cells can be reset individually, each servo’s reset command should remain separate. This ensures flexibility if we later switch to a more modular reset mechanism.
+
