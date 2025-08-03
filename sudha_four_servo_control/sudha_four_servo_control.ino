@@ -37,7 +37,7 @@ void loop() {
 
 // const int neutralPos = 110;     // Preset positions (angles)
 // const int pullDownPos = 10;     
-// const int resetPos = 155;      //+65deg angular
+// const int resetPos = 135;      //+45deg angular
 // const int zero = 0;           // 0 deg servo
 // const int angle180 = 180;           // 180 deg servo
 
