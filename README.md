@@ -20,5 +20,7 @@ Note on Cell Reset Mechanism
 
 Currently, the green reset bar is a single solid piece. This means all servos (and therefore all cells) must reset simultaneously by rotating counterclockwise, regardless of their previous state.
 
+**Edit 2025-08-03:** 4 separate green bar for each cell
+
 However, to support future designs where cells can be reset individually, each servo’s reset command should remain separate. This ensures flexibility if we later switch to a more modular reset mechanism.
 
